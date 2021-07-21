@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Urban Viewer Demo</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173478662-1"></script>
+		
+		<script>
+ 		 window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+ 		gtag('config', 'UA-173478662-1');
+		</script>
+
+		<!--link to stylesheet-->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- link to leaflet stylesheet-->
+		<link rel="stylesheet" href="css/leaflet.css">
+
+
+	</head>
+	<body>
+		<!--the sequence of elements called matters!-->
+		<!-- title of your map-->
+		<h1> 🌎Urban viewer - Urban agglomerations worldwide  </h1>
+
+		<!-- division div for the map -->
+		<div id="map"></div>
+
+		<script  data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="bryan.vallejo" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+		<!-- link to leaflet javascript library-->
+		<script src="js/leaflet-src.js"></script>
+
+		<!-- load Esri Leaflet because we want to use an Esri basemap -->
+		<script src="https://unpkg.com/esri-leaflet@2.3/dist/esri-leaflet.js"></script>
+
+		<!--link to the files that contains geoJson data-->
+
+		<script src="data/pop_cities.geojson" type="text/javascript"> </script>
+
+		<!-- link to main javascript file -->
+		<script src="js/main.js"></script>
+
+
+	</body>
+<html>

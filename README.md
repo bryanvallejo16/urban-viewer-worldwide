@@ -10,7 +10,7 @@ The aim of this practice is to create an interactive web map that shows the esti
 
 ***Urban Viewer online:*** https://bryanvallejo16.github.io/urban-viewer-worldwide/
 
-***Tutorial:*** 
+***Tutorial:*** https://towardsdatascience.com/discover-urban-viewer-an-interactive-web-map-to-visualize-population-of-urban-areas-worldwide-f36df1fe420d
 
 ## Final map
 ![animation](gif/gif-urbanviewer.gif)
